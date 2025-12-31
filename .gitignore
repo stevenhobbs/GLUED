@@ -1,0 +1,9 @@
+# Environment, cache files, metadata
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Data
+data/
+!data/.gitkeep
