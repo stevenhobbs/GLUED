@@ -1,0 +1,7 @@
+name: pymer4
+channels:
+  - ejolly
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pymer4
