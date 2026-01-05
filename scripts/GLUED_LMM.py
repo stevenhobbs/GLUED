@@ -66,6 +66,6 @@ print("The referrence region is North America")
 
 # %% NEXT STEPS
 # 1.Check assumptions (residuals), leverage, outliers and update data/model as needed
-# 2. Explore year*region interaction
-# 3. Explore splines to test if relationship changes before/after 1991 Soviet collapse. 
-# 4. Explore a tree-based model with more flexibility and compare with baseline linear model
+# 2. aggregate enrollment data by country and year to match gdp data
+# 3. Log transform enrollment and GDP to address skewness --> Plot & regress (log_enroll ~ log_gdp)
+# 4. Train a tree-based model for prediction. 
